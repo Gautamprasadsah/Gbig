@@ -24,7 +24,7 @@ $result = mysqli_query( $conn , $run) ;
 if($result)
 {
 	echo "<br><br><br><br><br><br><br><br><h1 align='center'>Yours Details are Submitted...!!</h1>";
-        echo "<br><br><br><br><br><br><br><br><h1 align='center'>Thank You...!!</h1>";
+        echo "<br><br><br><br><h1 align='center'>Thank You...!!</h1>";
         header( "refresh:3;url=contact.html" );
     
 }
